@@ -139,6 +139,6 @@ else
     CM_VERSION := $(PRODUCT_VERSION_MAJOR)-$(shell date -u +%Y%m%d)-$(CM_BUILDTYPE)-$(CM_BUILD)$(CM_EXTRAVERSION)
 endif
 
-PRODUCT_PROPERTY_OVERRIDES += \
-  ro.cm.version=$(CM_VERSION) \
-  ro.modversion=$(CM_VERSION)
+#PRODUCT_PROPERTY_OVERRIDES += \
+#  ro.cm.version=$(CM_VERSION) \
+#  ro.modversion=$(CM_VERSION)
