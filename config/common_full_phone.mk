@@ -22,7 +22,7 @@ include vendor/cm/config/cm_audio.mk
 PRODUCT_PACKAGES += \
   Mms
 
-ifeq ($(TARGET_BOOTANIMATION_NAME),)
-    PRODUCT_COPY_FILES += \
-        vendor/cm/prebuilt/common/bootanimation/vertical-480x800.zip:system/media/bootanimation.zip
-endif
+#ifeq ($(TARGET_BOOTANIMATION_NAME),)
+#    PRODUCT_COPY_FILES += \
+#        vendor/cm/prebuilt/common/bootanimation/vertical-480x800.zip:system/media/bootanimation.zip
+#endif
