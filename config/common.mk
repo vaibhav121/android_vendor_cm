@@ -43,10 +43,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/bin/modelid_cfg.sh:system/bin/modelid_cfg.sh
 
-PRODUCT_COPY_FILES +=  \
-    vendor/cm/proprietary/Term.apk:system/app/Term.apk \
-    vendor/cm/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so
-
 # Bring in camera effects
 PRODUCT_COPY_FILES +=  \
     vendor/cm/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
@@ -69,7 +65,8 @@ include vendor/cm/config/themes_common.mk
 
 # Required CM packages
 PRODUCT_PACKAGES += \
-    Camera \
+    LegacyCamera \
+    libjni_legacymosaic \
     Development \
     LatinIME \
     SpareParts \
@@ -78,8 +75,6 @@ PRODUCT_PACKAGES += \
 
 # Optional CM packages
 PRODUCT_PACKAGES += \
-    VoiceDialer \
-    SoundRecorder \
     Basic
 
 # Custom CM packages
