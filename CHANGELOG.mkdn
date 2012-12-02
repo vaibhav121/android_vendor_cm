@@ -1,3 +1,77 @@
+MiniCM
+===============
+
+Official Website: http://minicm.dyndns.org/site/
+
+MiniCM chat room: http://minicm.dyndns.org/site/Chat/
+
+Visit Project's page @ google code: http://code.google.com/p/minicm/
+
+Downloads: http://goo.im/devs/nAa/MiniCM10/shakira
+
+### MiniCM10-4.0.2
+* New unique CrystalMiniCM10 theme (default from now on)
+* New MiniCMUpdater feature for nightlies/releases for auto-updates
+* HW Video encoding / decoding via OMX
+* Camcorder 640x480 (full resolution)
+* Jellybean libaudio from sources (fixes for many audio related issues)
+* Removed SEMC stock keyboard
+* Improved camera performance and responsiveness
+* Improved all around performance and snappiness
+* Latest CM10 release code
+* CPU Settings are restored now after reboot
+
+### MiniCM10-4.0.1
+* Screen off CRT (electronbeam) animation
+* Less artifacts with stock camera
+* Improved libaudio - now vol up/down in call work correctly
+* Improved performance
+* Back button ends call
+* Force GPU for 2D rendering on by default
+* Many many fixes from CM
+* Auto-brightness implementation
+
+### MiniCM10-4.0.0
+* CM10 - Android 4.1.1 Jellybean codeline
+* Unique MiniCM10 theme
+* Full Hardware Acceleration with Adreno ICS libs
+* For use with nAa-ics kernel line only
+* Built for MDPI - shakira, LDPI - robyn, mimmi
+* MiniCM10 theme
+* GSM/SMS/Data(3G, EDGE)
+* Functional Camera (SEMC libcamera, camcorder not working)
+* Wifi
+* Wifi Tethering
+* Usb mass storage
+* Usb tethering
+* Bluetooth
+* Bluetooth Tethering
+* FM Radio
+* ADB at boot
+* Sensors
+* OpenGL Rendering for gui (the ICS way)
+* Libaudio from sources - supports wired headset and FM Radio
+* Software Video decoder
+* Vibration
+* GPS
+* App2sd (storing to ext4. Detect ext4 partition and swap and mount as such)
+* Native android moving apps to sdcard
+* Fixed banding issues
+* Flash led (Torch app) (for robyn, mimmi)
+* Stock SE T9 keyboard (for robyn, mimmi)
+* Offline charging
+* Reboot menu - boot into Recovery
+* Recovery version in Settings -> About Phone
+* OTA Update notifications for both kernel and ROM
+* Undervolting via Settings -> Performance menu
+* Ultra brightness via Settings -> Display menu
+* Option to disable bootanimation for faster boot
+* Partition info Settings menu
+* Bugreporting by pressing vol down + vol up + power. Attach this report on bugs that you open on the project's tracker
+* Long-pressing the HOME button toggles flashlight (option in Settings -> Lockscreen -> Security)
+* A2SD settings
+* Swap settings
+
 CyanogenMod
 ===============
 
