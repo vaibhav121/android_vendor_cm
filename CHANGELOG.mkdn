@@ -7,7 +7,16 @@ MiniCM chat room: http://minicm.dyndns.org/site/Chat/
 
 Visit Project's page @ google code: http://code.google.com/p/minicm/
 
-Downloads: http://goo.im/devs/nAa/MiniCM10/shakira
+Downloads: http://goo.im/devs/nAa/MiniCM10/
+
+### MiniCM10-4.1.0
+* Latest CM 4.1.2 android code
+* Support for 2.6.32.60-nAa kernel
+* Updated wifi driver and wpa-supplicant8
+* Updated bluetooth and bluetooth tethering support
+* New TI/CM FM Radio app
+* Disable auto-convering of sms to mms
+* libaudio improvements
 
 ### MiniCM10-4.0.2
 * New unique CrystalMiniCM10 theme (default from now on)
