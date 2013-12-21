@@ -5,8 +5,11 @@
 L="log -p i -t cm"
 
 $L "Welcome to Android `getprop ro.build.version.release` / CyanogenMod-`getprop ro.cm.version`";
-$L "                                                _ ";
-$L " __ __ _ ___  _ _  __  ___  __ _ _  _  _  __  __))";
-$L "((_ \\(/'((_( ((\\( ((_)((_( (('((\\( ((\`1( ((_)((_( ";
-$L "     ))                 _))";
-$L " ";
+
+# Ascii Art credits: http://www.network-science.de/ascii/
+# Font: rectangles   Reflection: no   Adjustment: left   Stretch: yes      Width: 80	 Text: CodyROM
+$L " _____       _     _____ _____ _____ ";
+$L "|     |___ _| |_ _| __  |     |     |";
+$L "|   --| . | . | | |    -|  |  | | | |";
+$L "|_____|___|___|_  |__|__|_____|_|_|_|";
+$L "              |___|                  ";
