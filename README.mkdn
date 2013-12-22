@@ -3,7 +3,7 @@ CodyROM
 
 Submitting Patches
 ------------------
-Patches are always welcome!  Please submit your patches via CyanogenMod Gerrit!
+Patches are always welcome!
 You can do this by using these commands:
 
     (From root android directory)
